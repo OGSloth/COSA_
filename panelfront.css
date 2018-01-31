@@ -1,0 +1,229 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    size: A3;
+    color: white;
+}
+
+a:hover{
+    color:red;
+}
+
+input[type=text], input[type=password], input[type=submit],
+input[type=number], input[type=date]{
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 1px solid #b7b7b7;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font: normal 16px/normal "Times New Roman", Times, serif;
+    color: rgba(0,142,198,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(252,252,252,1);
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,255,0,1) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0,255,0,1) inset;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.error
+{
+    color:lawngreen;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.log_out
+{
+    align-content: left;
+    text-align: left;
+    align-items: left;
+    align-self: left;
+    alignment: left;
+}
+
+img.resize {
+    width:auto; /* you can use % */
+    height: auto;
+}
+
+.button {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 280px;
+    height: 60px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid #018dc4;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font: normal normal bold 32px/normal "Times New Roman", Times, serif;
+    color: rgba(255,255,255,0.9);
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: url("iconrook.png"), -webkit-linear-gradient(-90deg, rgba(210,244,146,1) 0, rgba(124,188,10,1) 100%);
+    background: url("iconrook.png"), -moz-linear-gradient(180deg, rgba(210,244,146,1) 0, rgba(124,188,10,1) 100%);
+    background: url("iconrook.png"), linear-gradient(180deg, rgba(210,244,146,1) 0, rgba(124,188,10,1) 100%);
+    background-repeat: no-repeat, repeat;
+    background-position: 2% 50%, 50% 50%;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: 44px 52px, auto auto;
+    background-size: 44px 52px, auto auto;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(204,65,37,1) ;
+    box-shadow: 2px 2px 2px 0 rgba(204,65,37,1) ;
+    text-shadow: -1px -1px 0 rgba(15,73,168,0.66) ;
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+tr, td {
+    padding: 15px;
+    border: 1px solid white;
+    color: white;
+    font-size: large;
+    text-align: center;
+    font-weight: bolder;
+}
+
+table{
+    -moz-column-count: 5;
+    -moz-column-gap: 5px;
+    -webkit-column-count: 5;
+    -webkit-column-gap: 5px;
+    column-count: 5;
+    column-gap: 5px;
+    border: 1px solid white;
+    font-weight: bolder;
+    color: green;
+
+    opacity: 0.9;
+}
+
+select{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    color: white;
+    width: 1000px;
+    height: 35px;
+    text-align-last:center;
+}
+
+#container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#menu{
+
+    margin-top: 20px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+#topbar{
+    color: white;
+    padding: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    height: 120px;
+
+}
+
+#sidebar{
+    margin-bottom: 200px;
+    float: left;
+    width: 200px;
+    min-height: 620px;
+    padding:20px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+#content{
+    margin-top: 50px;
+    float: left;
+    padding: 40px;
+    width: 678px;
+    background-color: navajowhite;
+    min-height: 580px;
+    text-align: justify;
+    opacity: 0.8;
+}
+
+#footer{
+    clear: both;
+}
+
+body{
+    background-image: url("backimg.jpg");
+    background-size: auto auto;
+    align-items: center;
+
+}
+
+.option{
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 160px;
+    height: 67px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 3px solid #018dc4;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font: normal 28px/normal "Times New Roman", Times, serif;
+    color: rgba(255,255,255,0.9);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: url("iconq.png"), #0199d9;
+    background-repeat: no-repeat;
+    background-position: 100px 100%;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: 100px 100px;
+    background-size: 100px 100px;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(152,0,0,1) ;
+    box-shadow: 2px 2px 2px 0 rgba(152,0,0,1) ;
+    text-shadow: -1px -1px 0 rgba(15,73,168,0.66) ;
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.option:hover{
+    background-color: blue;
+    cursor: pointer;
+    opacity: 0.8;
+}
